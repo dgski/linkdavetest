@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>David Gorski</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    :root {
+        --background-color: white;
+        --text-color: black;
+        --link-background-color: black;
+        --link-text-color: white;
+        --link-hover-background-color: royalblue;
+        --link-hover-text-color: white;
+        --link-border-radius: 0.7em;
+    }
+    
+    
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+    
+    #output {
+        text-align: center;
+        font-family: "Roboto Condensed", sans-serif;
+        width: 100%;
+        height: 100%;
+        font-size: 1.5em;
+        border: none;
+        resize: none;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+    
+    #centered {
+        max-width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+    
+    @media (max-width: 600px) {
+        #centered {
+            width: 100%;
+            max-width: 100%;
+            margin-left: 0;
+        }
+    }
+    
+    h1 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+        padding-top: 1em;
+    }
+    
+    @media (min-width: 600px) {
+        .link:hover {
+            background-color: var(--link-hover-background-color);
+            color: var(--link-hover-text-color);
+        }
+    }
+    
+    .link {
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        font-size: 1.1em;
+        color: var(--link-text-color);
+        background-color: var(--link-background-color);
+        padding: 0.2em;
+        border-radius: var(--link-border-radius);
+        margin: 1.0em;
+        font-size: 0.7em;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+    }
+    
+    p {
+        margin-bottom: 1.5em;
+    }
+    
+    em {
+        font-size: 0.7em;
+        opacity: 0.2;
+    }
+    
+    em a {
+        color: var(--text-color);
+    }
+    
+    
+                 *{}
+  </style>
+</head>
+
+<body>
+  <div id="output">
+
+    <div id="centered">
+      <h1>David Gorski</h1>
+      <p>Sofware Engineering, Calisthenics, Urban Planning, Writing. Currently based in NYC.</p>
+      <div id="content">
+        <a class="link" href="https://a.co/d/0U6KOfb">New Book Available Now</a><a class="link" href="https://www.linkedin.com/in/dgski/">LinkedIn</a><a class="link" href="https://xantasoft.com">Projects</a><a class="link" href="https://github.com/dgski">Github</a><a class="link" href="https://twitter.com/thedavidgorski">Twitter</a><a class="link" href="https://tech.davidgorski.ca">TechBlog</a>
+      </div>
+      <br>
+      <em>Generated Using <a href="https://linkdave.xantasoft.com">Linkdave</a></em>
+      <br>
+      <br>
+    </div>
+
+  </div>
+</body>
+
+</html>
